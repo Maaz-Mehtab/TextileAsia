@@ -1,0 +1,31 @@
+{
+  "name": "TextileAsia",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "geolib": "^2.0.24",
+    "prop-types": "^15.7.2",
+    "react": "16.6.0-alpha.8af6728",
+    "react-moment": "^0.9.2",
+    "moment": "^2.23.0",
+    "react-native": "0.57.4",
+    "react-native-calendars": "^1.32.0",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-maps": "^0.23.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.6.1"
+  },
+  "devDependencies": {
+    "babel-jest": "24.7.1",
+    "jest": "24.7.1",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-test-renderer": "16.6.0-alpha.8af6728"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
